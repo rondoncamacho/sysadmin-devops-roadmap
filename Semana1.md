@@ -72,14 +72,6 @@ Eliminar directorios y su contenido de forma recursiva:
 mkdir servidor/temp_dir && touch servidor/temp_dir/test.txt
 rm -r servidor/temp_dir
 
-Documentación de Procedimientos:
-
-Actualizar las notas de la operación:
-echo "- Sección 2: Gestión\n- Logs copiados a backups\n- Configs movidas y renombradas\n- Archivos temporales eliminados" >> notas_sem1.md
-
-Actualizar el árbol de directorios después de las operaciones:
-tree servidor > arbol_dia2.txt
-
 Fase 3: Visualización y Edición de Contenido
 Objetivo: Inspeccionar y modificar archivos de configuración y registros de forma segura y eficiente.
 
